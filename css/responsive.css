@@ -168,10 +168,7 @@
     .sectionTitle p{
         padding: 0;
     }
-    .singleWork img {
-        height: 60vh;
-        width: auto;
-    }
+  
     #workCarousel .slick-next {
         right: 70px;
     }
@@ -493,10 +490,7 @@
     .singleWork{
         margin: 0;
     }
-    .singleWork img {
-        height: 100%;
-        width: auto;
-    }
+  
     #workCarousel .slick-prev, #workCarousel .slick-next {
         margin-top: 0;
         top: 90%;
@@ -910,6 +904,26 @@
         height: 600px;
         position: relative;
         width: 100%;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .sectionTitle h3.lead{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .sectionTitle h2.lead {
+        font-size: 20px;
+        word-break: break-all;
+        line-height: 30px;
+    }
+
+    .wedoContent h2.lead {
+        font-size: 27px;
+        font-weight: 700;
+        letter-spacing: 0;
+        line-height: 40px;
     }
 }
 

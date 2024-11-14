@@ -172,20 +172,7 @@ blockquote p{
     color: #ffffff;   
 }
 
-@media (max-width: 740px) {
-    h3.lead{
-        font-size: 50px;
-        letter-spacing: 0;
-        line-height: 60px;
-    }    
-}
 
-@media (min-width: 1440px) {
-
-    .container {
-        width: 1322px;
-    }
-}
 
 
 *:focus{
@@ -448,4 +435,41 @@ blockquote p{
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+
+@media (max-width: 540px) {
+    h3.lead{
+        font-size: 50px;
+        letter-spacing: 0;
+        line-height: 60px;
+    }   
+    
+    h5.lead {
+        font-size: 24px;
+        letter-spacing: 0;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 740px) {
+    h3.lead{
+        font-size: 20px;
+        letter-spacing: 0;
+        line-height: 40px;
+    }   
+    
+    h2.lead{
+        font-size: 15px;
+        letter-spacing: 0;
+        line-height: 20px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    .container {
+        width: 1322px;
+    }
 }
