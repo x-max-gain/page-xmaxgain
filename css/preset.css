@@ -77,20 +77,20 @@ button{
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
-    color: #000;
+    color: #ffffff;
     margin: 0 0 15px;
 }
 h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
-    color: #ffc112;
+    color: #fdba00;
 }
 .color_white{
     color: #fff;
 }
 .color_yellow{
-    color: #fedd00
+    color: #fdba00
 }
 .magenta{
-    color: #fd0060;
+    color: #fdba00;
 }
 h1.lead{
     font-size: 160px;
@@ -105,7 +105,7 @@ h2.lead{
     font-weight: 700;
 }
 h3.lead{
-    font-size: 50px;
+    font-size: 60px;
     letter-spacing: 0;
     line-height: 60px;
 }
@@ -169,14 +169,25 @@ blockquote {
 }
 blockquote p{
     font-size: 22px;
-    color: #000000;   
+    color: #ffffff;   
+}
+
+@media (max-width: 740px) {
+    h3.lead{
+        font-size: 50px;
+        letter-spacing: 0;
+        line-height: 60px;
+    }    
 }
 
 @media (min-width: 1440px) {
+
     .container {
         width: 1322px;
     }
 }
+
+
 *:focus{
     outline: none;
 }
@@ -225,7 +236,7 @@ blockquote p{
 }
 .sectionTitle p{
     font-size: 24px;
-    color: #000000;
+    color: #ffffff;
     line-height: 40px;
     font-weight: 300;
     padding: 0 185px;
@@ -248,23 +259,22 @@ blockquote p{
 .bigTitle3{
     margin-bottom: 123px;
 }
-.bggreay{
+.bgwhite{
     background: #f9f9f9;
 }
 .bgblack{
-    background: #1b1b1b;
+    background: #000000;
 }
 /*=======================================================================
 [05] TEMPLATE BUTTON STYLE
 =========================================================================*/
 .bes_button{
-    background: -moz-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(35%, #36146a), color-stop(46%, #581068), color-stop(50%, #640E67), color-stop(100%, #ff0060)); /* safari4+,chrome */
-    background: -webkit-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: -o-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: -ms-linear-gradient(358deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    background: linear-gradient(92deg, #36146a 35%, #581068 46%, #640E67 50%, #ff0060 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36146a', endColorstr='#ff0060',GradientType=1 );
+    background: -moz-linear-gradient(358deg, #ffd200 35%, #ffd200 46%, #ffd200 50%, #ffd200 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(35%, #ffd200), color-stop(46%, #ffd200), color-stop(50%, #ffd200), color-stop(100%, #ffd200)); /* safari4+,chrome */
+    background: -webkit-linear-gradient(358deg, #ffd200 35%, #ffd200 46%, #ffd200 50%, #ffd200 100%);
+    background: -o-linear-gradient(358deg, #ffd200 35%, #ffd200 46%, #ffd200 50%, #ffd200 100%);
+    background: -ms-linear-gradient(358deg, #ffd200 35%, #ffd200 46%, #ffd200 50%, #ffd200 100%);
+    background: linear-gradient(92deg, #ffd200 35%, #ffd200 46%, #ffd200 50%, #ffd200 100%);
     height: 50px;
     border-radius: 30px;
     display: inline-block;
@@ -283,13 +293,13 @@ blockquote p{
     top: 2px;
 }
 .bes_button:hover{
-    background: -moz-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%);
-    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fd0060), color-stop(50%, #9B0A65), color-stop(100%, #3a146a));
-    background: -webkit-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%);
-    background: -o-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
-    background: -ms-linear-gradient(0deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
-    background: linear-gradient(90deg, #fd0060 0%, #9B0A65 50%, #3a146a 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd0060', endColorstr='#3a146a',GradientType=1 );
+    background: -moz-linear-gradient(0deg, #eec718 0%, #eec718 50%, #eec718 100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, #eec718), color-stop(50%, #eec718), color-stop(100%, #eec718));
+    background: -webkit-linear-gradient(0deg, #eec718 0%, #eec718 50%, #eec718 100%);
+    background: -o-linear-gradient(0deg, #eec718 0%, #eec718 50%, #eec718 100%); 
+    background: -ms-linear-gradient(0deg, #eec718 0%, #eec718 50%, #eec718 100%); 
+    background: linear-gradient(90deg, #eec718 0%, #eec718 50%, #eec718 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd0060', endColorstr='#000',GradientType=1 );
     color: #fff;
 }
 .bes_button2{

@@ -45,7 +45,7 @@
         position: relative;
     }
     .testmonial::before {
-        background: #fd0060;
+        background: #ffc400;
         left: -174px;
         width: 150px;
     }
@@ -649,7 +649,7 @@
         top: 0;
     }
     .mainMenu ul ul.sub-menu::before {
-        border-bottom: 5px solid #fd0060;
+        border-bottom: 5px solid #ffc400;
         border-left: 5px solid transparent;
         border-right: 5px solid transparent;
         content: "";
@@ -837,10 +837,10 @@
 
     }
     .mainMenu_home3 > ul li a:hover{
-        color: #fd0060;
+        color: #ffc400;
     }
     .mainMenu_home3 > ul li.active a{
-        color: #fd0060;
+        color: #ffc400;
     }
 
     .abcontentT.abcontentTP{
